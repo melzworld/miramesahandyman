@@ -1,0 +1,103 @@
+@media screen and (max-width: 514px) {
+img.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 100%;
+}
+}
+
+img.site {
+    display:block;
+    max-width: 35%;
+    height:auto;
+    /* padding: 10px; */
+    box-shadow: 10px 10px 5px grey;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    flex: 1;
+    display:block;
+    width:120px;
+}
+nav ul li a {
+    display:block;
+	padding:3px;
+	text-decoration:none;
+    background-color: #f1f1f1;
+	color:#009;
+}
+nav ul li a:hover {
+    background-color: #555;
+    color: white;
+}
+h1 {
+    color: black;
+    background-color: #d9eda3; 
+    margin-block-start: 0;
+}
+
+h1 i {
+    float: right;
+    margin-right: 6px;
+    margin-top: 3px;
+}
+h2 {
+    color: white;
+    background-color: #474747;
+}
+p {
+    color: #636800;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+blockquote {
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    background: none;
+    color: #5b2963;
+    font-family: Arial, serif;
+    font-size: 1.25em;
+    font-style: italic; 
+    line-height: 1.4 !important;
+    margin: 0;
+    position: relative;
+    text-shadow: 0 1px gray;
+    z-index: 600;
+}
+
+article { 
+    display: block;
+ }
+
+.img-block {
+    display: block;
+    margin: 20px 0;
+}
+.container {
+    width: 100%;
+}
+
+article h2 form button {
+   float: right;
+   margin-right: 6px;
+   margin-top: 3px;
+}
+
+.fa-edit:before {
+    content: "\f044";
+    float: right;
+    /* margin-right: 6px; */
+}
+
+.fa-trash-alt:before {
+    float: right;
+    /* margin-right: 6px; */
+    content: "\f2ed";
+    color: red;
+}
